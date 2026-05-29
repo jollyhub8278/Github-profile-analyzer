@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("GitHub Profile Analyzer API is running");
+});
+
 app.use("/api/github", githubRoutes);
 
 const PORT = process.env.PORT || 5000;
