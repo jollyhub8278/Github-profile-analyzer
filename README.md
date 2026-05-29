@@ -89,7 +89,7 @@ github-profile-analyzer/
 ## 1. Clone Repository
 
 ```bash
-git clone <your-github-repository-link>
+git clone https://github.com/jollyhub8278/Github-profile-analyzer.git
 ```
 
 ## 2. Navigate to Project Folder
